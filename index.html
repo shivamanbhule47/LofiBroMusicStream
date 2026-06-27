@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/LofiBroMusicStream/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title data-default>Lofi Bros - Chill Music Streaming</title>
     <meta property="og:title" content="Lofi Bros - Chill Music Streaming" />
@@ -12,6 +12,8 @@
     <script>
       // Single Page Apps for GitHub Pages
       // https://github.com/rafgraph/spa-github-pages
+      var pathSegmentsToKeep = 1; // Keep one segment for repo name
+
       var l = window.location;
       if (l.search[1] === '/' ) {
         var decoded = l.search.slice(1).split('&').map(function(s) {
